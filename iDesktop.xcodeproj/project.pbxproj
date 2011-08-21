@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1543BE1401661900F7A9E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1543BD1401661900F7A9E4 /* UIKit.framework */; };
+		7D1543C01401661900F7A9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1543BF1401661900F7A9E4 /* Foundation.framework */; };
+		7D1543C21401661900F7A9E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1543C11401661900F7A9E4 /* CoreGraphics.framework */; };
+		7D1543C81401661900F7A9E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1543C61401661900F7A9E4 /* InfoPlist.strings */; };
+		7D1543CA1401661900F7A9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1543C91401661900F7A9E4 /* main.m */; };
+		7D1543CE1401661900F7A9E4 /* iDesktopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1543CD1401661900F7A9E4 /* iDesktopAppDelegate.m */; };
+		7D1543D11401661900F7A9E4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1543CF1401661900F7A9E4 /* MainWindow.xib */; };
+		7D1543D41401661900F7A9E4 /* iDesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1543D31401661900F7A9E4 /* iDesktopViewController.m */; };
+		7D1543D71401661900F7A9E4 /* iDesktopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1543D51401661900F7A9E4 /* iDesktopViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D1543B91401661900F7A9E4 /* iDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1543BD1401661900F7A9E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D1543BF1401661900F7A9E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D1543C11401661900F7A9E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D1543C51401661900F7A9E4 /* iDesktop-Info.plist */ = {isa = PBXFileReference; path = "iDesktop-Info.plist"; sourceTree = "<group>"; };
+		7D1543C71401661900F7A9E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D1543C91401661900F7A9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D1543CB1401661900F7A9E4 /* iDesktop-Prefix.pch */ = {isa = PBXFileReference; path = "iDesktop-Prefix.pch"; sourceTree = "<group>"; };
+		7D1543CC1401661900F7A9E4 /* iDesktopAppDelegate.h */ = {isa = PBXFileReference; path = iDesktopAppDelegate.h; sourceTree = "<group>"; };
+		7D1543CD1401661900F7A9E4 /* iDesktopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDesktopAppDelegate.m; sourceTree = "<group>"; };
+		7D1543D01401661900F7A9E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7D1543D21401661900F7A9E4 /* iDesktopViewController.h */ = {isa = PBXFileReference; path = iDesktopViewController.h; sourceTree = "<group>"; };
+		7D1543D31401661900F7A9E4 /* iDesktopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDesktopViewController.m; sourceTree = "<group>"; };
+		7D1543D61401661900F7A9E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iDesktopViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1543B61401661900F7A9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1543BE1401661900F7A9E4 /* UIKit.framework in Frameworks */,
+				7D1543C01401661900F7A9E4 /* Foundation.framework in Frameworks */,
+				7D1543C21401661900F7A9E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D1543AE1401661900F7A9E4 = {
+			isa = PBXGroup;
+			children = (
+				7D1543C31401661900F7A9E4 /* iDesktop */,
+				7D1543BC1401661900F7A9E4 /* Frameworks */,
+				7D1543BA1401661900F7A9E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D1543BA1401661900F7A9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1543B91401661900F7A9E4 /* iDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1543BC1401661900F7A9E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D1543BD1401661900F7A9E4 /* UIKit.framework */,
+				7D1543BF1401661900F7A9E4 /* Foundation.framework */,
+				7D1543C11401661900F7A9E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D1543C31401661900F7A9E4 /* iDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				7D1543CC1401661900F7A9E4 /* iDesktopAppDelegate.h */,
+				7D1543CD1401661900F7A9E4 /* iDesktopAppDelegate.m */,
+				7D1543CF1401661900F7A9E4 /* MainWindow.xib */,
+				7D1543D21401661900F7A9E4 /* iDesktopViewController.h */,
+				7D1543D31401661900F7A9E4 /* iDesktopViewController.m */,
+				7D1543D51401661900F7A9E4 /* iDesktopViewController.xib */,
+				7D1543C41401661900F7A9E4 /* Supporting Files */,
+			);
+			path = iDesktop;
+			sourceTree = "<group>";
+		};
+		7D1543C41401661900F7A9E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1543C51401661900F7A9E4 /* iDesktop-Info.plist */,
+				7D1543C61401661900F7A9E4 /* InfoPlist.strings */,
+				7D1543C91401661900F7A9E4 /* main.m */,
+				7D1543CB1401661900F7A9E4 /* iDesktop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1543B81401661900F7A9E4 /* iDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1543DA1401661900F7A9E4 /* Build configuration list for PBXNativeTarget "iDesktop" */;
+			buildPhases = (
+				7D1543B51401661900F7A9E4 /* Sources */,
+				7D1543B61401661900F7A9E4 /* Frameworks */,
+				7D1543B71401661900F7A9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iDesktop;
+			productName = iDesktop;
+			productReference = 7D1543B91401661900F7A9E4 /* iDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1543B01401661900F7A9E4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7D1543B31401661900F7A9E4 /* Build configuration list for PBXProject "iDesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D1543AE1401661900F7A9E4;
+			productRefGroup = 7D1543BA1401661900F7A9E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1543B81401661900F7A9E4 /* iDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1543B71401661900F7A9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1543C81401661900F7A9E4 /* InfoPlist.strings in Resources */,
+				7D1543D11401661900F7A9E4 /* MainWindow.xib in Resources */,
+				7D1543D71401661900F7A9E4 /* iDesktopViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1543B51401661900F7A9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1543CA1401661900F7A9E4 /* main.m in Sources */,
+				7D1543CE1401661900F7A9E4 /* iDesktopAppDelegate.m in Sources */,
+				7D1543D41401661900F7A9E4 /* iDesktopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D1543C61401661900F7A9E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1543C71401661900F7A9E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D1543CF1401661900F7A9E4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1543D01401661900F7A9E4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		7D1543D51401661900F7A9E4 /* iDesktopViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1543D61401661900F7A9E4 /* en */,
+			);
+			name = iDesktopViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D1543D81401661900F7A9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7D1543D91401661900F7A9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D1543DB1401661900F7A9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDesktop/iDesktop-Prefix.pch";
+				INFOPLIST_FILE = "iDesktop/iDesktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D1543DC1401661900F7A9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iDesktop/iDesktop-Prefix.pch";
+				INFOPLIST_FILE = "iDesktop/iDesktop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1543B31401661900F7A9E4 /* Build configuration list for PBXProject "iDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1543D81401661900F7A9E4 /* Debug */,
+				7D1543D91401661900F7A9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1543DA1401661900F7A9E4 /* Build configuration list for PBXNativeTarget "iDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1543DB1401661900F7A9E4 /* Debug */,
+				7D1543DC1401661900F7A9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1543B01401661900F7A9E4 /* Project object */;
+}
