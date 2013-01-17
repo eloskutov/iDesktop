@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NewsWidgetView layoutSubviews]:NewsWidgetView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GoogleWeatherTransport parser:didStartElement:namespaceURI:qualifiedName:attributes:]:GoogleWeatherTransport.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "elementName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TabControlItem sizeThatFits:]:TabControlItem.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
