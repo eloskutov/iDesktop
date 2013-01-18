@@ -38,7 +38,7 @@
     {
         CGSize size = [tabControl sizeThatFits:tabControl.frame.size];
         size.height += 40;
-        size.width += 20;
+        size.width += 60;
         tabControl.frame = CGRectMake(0, 0, self.frame.size.width, size.height);
     }
 }
